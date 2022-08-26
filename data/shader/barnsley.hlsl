@@ -65,7 +65,7 @@ float4 Barnsley(float2 _Position, int2 _Resolution)
     uvCoords = uvCoords * 12.0 - float2(10.0f, 0.0f); //correct coordinates and 'zoom' to fit fractal into window
         
     // p => starting hash|random number
-    float p = hash(dot(Pos.xy, float2(_Resolution.x, _Resolution.y)) + c_PSRandNr);
+    float p = hash(dot(Pos.xy, _Resolution) + c_PSRandNr);
     
 
     const float iterations = 1024.0f;
