@@ -1,0 +1,3 @@
+C:\Users\Retch\Development\C++\GDV\GDV 2\gdv_klausur_sierpinski_vs_2022\projects\build\win32\example\Debug\example_debug.exe
+Z:\Dev\C++\gdv-2-sierpinski-triangles\projects\build\win32\example\Debug\example_debug.exe
+Z:\Dev\C++\gdv2-projekt\projects\build\win32\example\Debug\example_debug.exe
