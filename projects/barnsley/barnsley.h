@@ -31,8 +31,7 @@ private:
 		float		m_PSTiltFactorR;
 	};
 
-private:
-	float   m_FieldOfViewY;             // Vertical view angle of the camera
+	float   m_FieldOfViewY;
 	float   m_Position[3];
 	float   m_ProjectionMatrix[16];
 	float	m_TiltFactorR;
@@ -49,8 +48,6 @@ private:
 	BHandle m_pPSPerObjectConstants;
 	BHandle m_pVSPerFrameConstants;
 	BHandle m_pVSPerObjectConstants;
-
-private:
 
 	virtual bool InternOnCreateConstantBuffers();
 	virtual bool InternOnReleaseConstantBuffers();
